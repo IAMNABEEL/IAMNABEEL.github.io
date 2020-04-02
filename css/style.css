@@ -243,7 +243,7 @@ nav ul li a:hover {
 
 #header {
 	background: url('../images/main_pic_light.jpg') repeat scroll center center / cover;
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 }
 
@@ -290,6 +290,7 @@ nav ul li a:hover {
 
 #about {
 	width: 100%;
+	margin-top: 6px;
 	height: auto;
 	/* background: #f7f7f7; */
 	padding-top: 190px;
@@ -441,6 +442,18 @@ nav ul li a:hover {
 	margin-bottom: 0px;
 	width: 100%;
 }
+.img-hover-zoom img {
+	transition: transform 1s, filter 2s ease-in-out;
+	filter: blur(2px);
+	transform: scale(1.2);
+	filter: grayscale(100%);
+}
+
+.img-hover-zoom:hover img {
+	filter: grayscale(0);
+	filter: blur(0);
+	transform: scale(1);
+}
 
 .portfolio-thumbnail {
 	margin-bottom: 30px;
@@ -451,10 +464,118 @@ nav ul li a:hover {
 .portfolio-thumbnail img {
 	max-width: 100%;
 	height: 250px;
-	border-radius: 2%;
-	border: 1px solid grey;
+	/* border-radius: 2%;
+	border: 1px solid grey; */
+	-moz-box-shadow: 5px 5px 20px #ccc;
+	-webkit-box-shadow: 5px 5px 20px #ccc;
+	border: 1px solid lightgrey;
+	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+		0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+		0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
+.block {
+	width: 100em;
+}
+
+.animatable {
+	/* initially hide animatable objects */
+	visibility: hidden;
+
+	/* initially pause animatable objects their animations */
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
+}
+
+/* show objects being animated */
+.animated {
+	visibility: visible;
+
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+	-ms-animation-fill-mode: both;
+	-o-animation-fill-mode: both;
+	animation-fill-mode: both;
+
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	-ms-animation-duration: 1s;
+	-o-animation-duration: 1s;
+	animation-duration: 1s;
+
+	-webkit-animation-play-state: running;
+	-moz-animation-play-state: running;
+	-ms-animation-play-state: running;
+	-o-animation-play-state: running;
+	animation-play-state: running;
+}
+@-webkit-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+}
+
+@-o-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-o-transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		-o-transform: translateY(0);
+	}
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.animated.animationDelay {
+	animation-delay: 0.4s;
+	-webkit-animation-delay: 0.4s;
+}
+.animated.animationDelayMed {
+	animation-delay: 1.2s;
+	-webkit-animation-delay: 1.2s;
+}
+.animated.animationDelayLong {
+	animation-delay: 1.6s;
+	-webkit-animation-delay: 1.6s;
+}
+.animated.fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	-moz-animation-name: fadeInUp;
+	-o-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
 #gallery {
 	position: relative;
 	padding-bottom: 50px;
@@ -467,7 +588,7 @@ nav ul li a:hover {
 /*-----------------------------------------------------------------------------------*/
 
 #contact {
-	background: #ffffff;
+	background: #f7f7f7;
 	height: auto;
 	width: 100%;
 }
@@ -595,7 +716,7 @@ nav ul li a:hover {
 
 /* SKILL 4 */
 .skill4 {
-	width: 65%;
+	width: 75%;
 }
 
 .skill4 .skill-count4 {
@@ -657,7 +778,7 @@ nav ul li a:hover {
 #footer {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background: #f7f7f7;
+	background: #ffffff;
 }
 
 #footer .socials-media {
