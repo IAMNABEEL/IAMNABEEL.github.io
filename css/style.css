@@ -337,6 +337,7 @@ nav ul li a:hover {
 .owl-item {
 	float: left;
 }
+
 .services-block span {
 	margin: 10px 0;
 	position: relative;
@@ -442,6 +443,7 @@ nav ul li a:hover {
 	margin-bottom: 0px;
 	width: 100%;
 }
+
 .img-hover-zoom img {
 	transition: transform 1s, filter 2s ease-in-out;
 	filter: blur(2px);
@@ -512,11 +514,13 @@ nav ul li a:hover {
 	-o-animation-play-state: running;
 	animation-play-state: running;
 }
+
 @-webkit-keyframes fadeInUp {
 	0% {
 		opacity: 0;
 		-webkit-transform: translateY(20px);
 	}
+
 	100% {
 		opacity: 1;
 		-webkit-transform: translateY(0);
@@ -558,24 +562,29 @@ nav ul li a:hover {
 		transform: translateY(0);
 	}
 }
+
 .animated.animationDelay {
 	animation-delay: 0.4s;
 	-webkit-animation-delay: 0.4s;
 }
+
 .animated.animationDelayMed {
 	animation-delay: 1.2s;
 	-webkit-animation-delay: 1.2s;
 }
+
 .animated.animationDelayLong {
 	animation-delay: 1.6s;
 	-webkit-animation-delay: 1.6s;
 }
+
 .animated.fadeInUp {
 	-webkit-animation-name: fadeInUp;
 	-moz-animation-name: fadeInUp;
 	-o-animation-name: fadeInUp;
 	animation-name: fadeInUp;
 }
+
 #gallery {
 	position: relative;
 	padding-bottom: 50px;
@@ -641,6 +650,7 @@ nav ul li a:hover {
 	font-weight: 400;
 	font-size: 13px;
 }
+
 /*-----------------------------------------------------------------------------------*/
 /*  SKILL
 /*-----------------------------------------------------------------------------------*/
@@ -650,17 +660,20 @@ nav ul li a:hover {
 	font-family: 'Roboto', sans-serif;
 	margin: 0 auto;
 }
+
 .skill {
 	margin-bottom: 35px;
 	position: relative;
 	overflow-x: hidden;
 }
-.skill > p {
+
+.skill>p {
 	font-size: 18px;
 	font-weight: 700;
 	color: #1a1716;
 	margin: 0;
 }
+
 .skill:before {
 	width: 100%;
 	height: 5px;
@@ -670,6 +683,7 @@ nav ul li a:hover {
 	background: #959595;
 	bottom: 0;
 }
+
 .skill-bar {
 	width: 100%;
 	height: 5px;
@@ -682,6 +696,7 @@ nav ul li a:hover {
 .skill1 {
 	width: 95%;
 }
+
 .skill-bar span {
 	position: absolute;
 	border-top: 5px solid #f4392f;
@@ -691,6 +706,7 @@ nav ul li a:hover {
 	padding: 3px 0;
 	font-weight: 500;
 }
+
 .skill-bar {
 	position: relative;
 }
@@ -698,6 +714,7 @@ nav ul li a:hover {
 .skill1 .skill-count1 {
 	right: 0;
 }
+
 /* SKILL 2 */
 .skill2 {
 	width: 85%;
@@ -706,10 +723,12 @@ nav ul li a:hover {
 .skill2 .skill-count2 {
 	right: 0;
 }
+
 /* SKILL 3 */
 .skill3 {
 	width: 100%;
 }
+
 .skill3 .skill-count3 {
 	right: 0;
 }
@@ -740,6 +759,7 @@ nav ul li a:hover {
 .skill6 .skill-count6 {
 	right: 0;
 }
+
 .skill7 {
 	width: 100%;
 }
@@ -756,6 +776,7 @@ nav ul li a:hover {
 .skill8 .skill-count8 {
 	right: 0;
 }
+
 /* GITHUB SOURCE STYLE  */
 .github-source {
 	float: right;
@@ -766,6 +787,7 @@ nav ul li a:hover {
 	z-index: 999999;
 	top: 0;
 }
+
 .github-source i {
 	font-size: 50px;
 	color: #000;
@@ -836,6 +858,7 @@ nav ul li a:hover {
 	0% {
 		transform: rotate(0deg);
 	}
+
 	100% {
 		transform: rotate(360deg);
 	}
@@ -845,6 +868,7 @@ nav ul li a:hover {
 	0% {
 		transform: rotate(0deg);
 	}
+
 	100% {
 		transform: rotate(360deg);
 	}
