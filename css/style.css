@@ -338,6 +338,10 @@ nav ul li a:hover {
 	float: left;
 }
 
+.services-block {
+	box-shadow: 5px 10px 8px #eee;
+}
+
 .services-block span {
 	margin: 10px 0;
 	position: relative;
