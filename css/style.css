@@ -359,9 +359,6 @@ nav ul li a:hover {
 	line-height: 22px;
 	text-align: justify;
 }
-.services-block:hover{
-	margin-top: -10px !important;
-}
 
 .services-block i {
 	font-size: 44px;
