@@ -360,7 +360,7 @@ nav ul li a:hover {
 	text-align: justify;
 }
 .services-block:hover{
-	margin-bottom: 10px !important;
+	margin-top: -10px !important;
 }
 
 .services-block i {
