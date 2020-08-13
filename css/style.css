@@ -1,5 +1,5 @@
 body {
-	background: #ffffff;
+	background: #f7f7f7;
 	color: #898989;
 	font-family: 'Poppins', helvetica;
 	font-size: 15px;
@@ -336,7 +336,7 @@ nav ul li a:hover {
 /*-----------------------------------------------------------------------------------*/
 
 #services {
-	/* background: #f7f7f7; */
+	background: #f7f7f7;
 	position: relative;
 	padding-bottom: 80px;
 }
@@ -811,7 +811,7 @@ nav ul li a:hover {
 #footer {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background: #ffffff;
+	background: #f7f7f7;
 }
 
 #footer .socials-media {
