@@ -1,3 +1,7 @@
+html {
+	overflow: hidden;
+}
+
 body {
 	background: #ffffff;
 	color: #898989;
@@ -678,7 +682,7 @@ nav ul li a:hover {
 	overflow-x: hidden;
 }
 
-.skill>p {
+.skill > p {
 	font-size: 18px;
 	font-weight: 700;
 	color: #1a1716;
