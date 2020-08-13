@@ -1,1 +1,1 @@
-This i smy personal Website
+This is my personal Website

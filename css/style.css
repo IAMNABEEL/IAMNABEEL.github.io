@@ -243,6 +243,7 @@ nav ul li a:hover {
 
 #header {
 	background: url('../images/main_pic_light.jpg') repeat scroll center center / cover;
+	position: fixed;
 	height: 100%;
 	width: 100%;
 }
