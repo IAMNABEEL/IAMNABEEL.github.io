@@ -242,10 +242,16 @@ nav ul li a:hover {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-	background: url('../images/main_pic_light.jpg') repeat scroll center center / cover;
-	position: fixed;
+	/* background:  repeat scroll center center / cover;
+	position: fixed;*/
 	height: 100%;
 	width: 100%;
+	background: url('../images/main_pic_light.jpg');
+	min-height: 630px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #header .header-content {
