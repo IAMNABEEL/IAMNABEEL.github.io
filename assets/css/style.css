@@ -395,9 +395,10 @@ section .container {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about-me .content h2 {
-	font-weight: 700;
-	font-size: 32px;
+.about-me .content h2,
+.about-me-title {
+	font-weight: 800;
+	font-size: 34px;
 	color: #18d26e;
 }
 
