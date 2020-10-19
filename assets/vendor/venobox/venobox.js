@@ -254,7 +254,7 @@
                     content = $('.vbox-content');
                     blockleft = $('.vbox-left');
                     blocknum = $('.vbox-num');
-                    blockshare = $('.vbox-share');
+                    // blockshare = $('.vbox-share');
                     blocktitle = $('.vbox-title');
                     $preloader = $('.vbox-preloader');
 
@@ -344,18 +344,18 @@
                     infinigall = obj.data('infinigall');
                     share = obj.data('share');
                     blockshare.html('');
-                    if ( obj.data('vbtype') !== 'iframe' && obj.data('vbtype') !== 'inline' && obj.data('vbtype') !== 'ajax' ) {
-                        sharelinks = { 
-                            pinterest : '<a target="_blank" href="https://pinterest.com/pin/create/button/?url='+obj.prop('href')+'&media='+obj.prop('href')+'&description='+title+'">'+pinIcon+'</a>', 
-                            facebook  : '<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u='+obj.prop('href')+'">'+fbIcon+'</a>', 
-                            twitter   : '<a target="_blank" href="https://twitter.com/intent/tweet?text='+title+'&url='+obj.prop('href')+'">'+twitterIcon+'</a>', 
-                            linkedin  : '<a target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url='+obj.prop('href')+'">'+linkedinIcon+'</a>',
-                            download  : '<a target="_blank" href="'+obj.prop('href')+'">'+downloadIcon+'</a>'
-                        };
-                        $.each( share, function( key, value ) {
-                            blockshare.append(sharelinks[value]);
-                        });
-                    }
+                    // if ( obj.data('vbtype') !== 'iframe' && obj.data('vbtype') !== 'inline' && obj.data('vbtype') !== 'ajax' ) {
+                    //     sharelinks = { 
+                    //         pinterest : '<a target="_blank" href="https://pinterest.com/pin/create/button/?url='+obj.prop('href')+'&media='+obj.prop('href')+'&description='+title+'">'+pinIcon+'</a>', 
+                    //         facebook  : '<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u='+obj.prop('href')+'">'+fbIcon+'</a>', 
+                    //         twitter   : '<a target="_blank" href="https://twitter.com/intent/tweet?text='+title+'&url='+obj.prop('href')+'">'+twitterIcon+'</a>', 
+                    //         linkedin  : '<a target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url='+obj.prop('href')+'">'+linkedinIcon+'</a>',
+                    //         download  : '<a target="_blank" href="'+obj.prop('href')+'">'+downloadIcon+'</a>'
+                    //     };
+                    //     $.each( share, function( key, value ) {
+                    //         blockshare.append(sharelinks[value]);
+                    //     });
+                    // }
 
                     if (gallItems) {
                         items = gallItems;
