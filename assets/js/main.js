@@ -136,7 +136,7 @@
 
 	$(function() {
 		typed.typed({
-			strings: ['Nabeel Ahmed Rana', 'Dreamer', 'Designer', 'Developer', 'Freelancer', 'Entrepreneur'],
+			// strings: ['Nabeel Ahmed Rana', 'Dreamer', 'Designer', 'Developer', 'Freelancer', 'Entrepreneur'],
 			// strings: ['Nabeel Ahmed Rana'],
 			typeSpeed: 100,
 			loop: true,
