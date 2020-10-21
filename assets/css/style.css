@@ -1131,11 +1131,11 @@ section .container {
 /* preloading */
 
 .header-area {
-	width: 700px;
+	width: 100%;
 	margin: 240px auto;
 	font-size: 30px;
 	font-weight: bold;
-	font-family: lato;
+	font-family: 'monospace';
 	text-align: center;
 }
 .typed {
@@ -1143,7 +1143,7 @@ section .container {
 }
 .header-area h2 {
 	font-size: 50px;
-	color: #fff;
+	color: #000;
 	margin: 0;
 	font-family: 'monospace';
 	font-weight: 900;
