@@ -8,6 +8,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
@@ -1101,7 +1104,7 @@ section .container {
 
 /* preloading */
 
-.header-area {
+#header-area {
 	position: fixed;
 	z-index: 999999;
 	background: #ffffff;
@@ -1110,15 +1113,17 @@ section .container {
 }
 .typed {
 	color: black;
-}
-.header-area h2 {
-	position: absolute;
-	font-size: 50px;
-	color: #000;
-	margin: 240px auto;
 	text-align: center;
-	font-family: 'monospace';
-	font-weight: 900;
+}
+#header-area h2 {
+	/* position: absolute; */
+	font-size: 60px;
+	color: #ffffff;
+	margin: 20% auto;
+	text-shadow: 6px 7px 8px #333;
+	letter-spacing: 2px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 	-webkit-text-stroke: 1px black;
 }

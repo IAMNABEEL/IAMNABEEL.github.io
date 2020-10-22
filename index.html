@@ -30,17 +30,21 @@
 		<link href="assets/css/style.css" rel="stylesheet" />
 		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 		<script type="text/javascript">
-			$(window).on("load", function() {
-				$('.header-area').fadeOut("fast");
-			});
+			// $(window).on("load", function() {
+			// 	$('.header-area').fadeOut("slow");
+			// });
+			window.onload = function(){
+				var el = document.getElementById('header-area');
+				el.style.display = 'none';
+			};
 		</script>
 
 	</head>
 
 	<body>
-		<!-- <div class="header-area">
-			<h2 style="text-align:center">I'm <span class="animate"></span></h2>
-		</div> -->
+		<div id="header-area">
+			<h2 class="animate"></h2>
+		</div>
 		<!-- ======= Header ======= -->
 		<header id="header" class="header-tops">
 			<div class="container">
@@ -932,13 +936,14 @@
 		<script type="text/javascript">
 			var typed = new Typed('.animate', {
 				strings:[
-					"Dreamer",
-					"Designer",
-					"Developer"
+					"Dreamer.",
+					"Designer.",
+					"Developer.",
+					"Entrepreneur."
 				],
 
-				typeSpeed:50,
-				backSpeed:50,
+				typeSpeed:60,
+				backSpeed:60,
 				loop:true,
 			});
 		</script>
