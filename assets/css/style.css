@@ -1110,13 +1110,20 @@ section .container {
 	background: #ffffff;
 	height: 100%;
 	width: 100%;
+	display: flex;
+	justify-content: center;
 }
-.typed {
+
+#header-area span img {
+	margin-top: 100%;
+	display: block;
+	width: 60%;
+}
+/* .typed {
 	color: black;
 	text-align: center;
 }
 #header-area h2 {
-	/* position: absolute; */
 	font-size: 60px;
 	color: #ffffff;
 	margin: 20% auto;
@@ -1126,7 +1133,7 @@ section .container {
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 	-webkit-text-stroke: 1px black;
-}
+} */
 
 /*--------------------------------------------------------------
 # Credits
