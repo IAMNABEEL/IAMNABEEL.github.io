@@ -1112,6 +1112,8 @@ section .container {
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	align-self: center;
 }
 
 #header-area span img {
