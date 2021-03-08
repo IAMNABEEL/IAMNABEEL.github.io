@@ -31,29 +31,6 @@ body::before {
 	width: 100%;
 }
 
-.accounts {
-	position: relative;
-	display: inline-block;
-}
-
-.accounts .tooltiptext {
-	visibility: hidden;
-	width: 120px;
-	background-color: #18d26e;
-	color: #fff;
-	text-align: center;
-	border-radius: 6px;
-	padding: 5px 0;
-	position: absolute;
-	z-index: 1;
-	top: 30px;
-	left: -2%;
-}
-
-.accounts:hover .tooltiptext {
-	visibility: visible;
-}
-
 @media (min-width: 1024px) {
 	body::before {
 		background-attachment: fixed;
