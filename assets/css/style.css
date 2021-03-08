@@ -21,7 +21,7 @@ body {
 body::before {
 	content: '';
 	position: fixed;
-	background: #040404 url('../img/main_pic_light.jpg') repeat scroll center center / cover;
+	background: #040404 url('../img/main_pic_light1.jpg') repeat scroll center center / cover;
 	/* background-size: no-repeat;
   left: 0;
   right: 0;
